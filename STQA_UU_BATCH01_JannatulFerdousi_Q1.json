@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "fa30a282-edcc-42b8-bab9-9970d1ce7e05",
+		"name": "EDGE Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40604607"
+	},
+	"item": [
+		{
+			"name": "API Testing",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/users?page=2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
